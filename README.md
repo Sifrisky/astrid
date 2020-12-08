@@ -1,4 +1,4 @@
 # Portfolio Astrid
 
 see deployment 
-[portfolio] (https://sifrisky.github.io/astrid/)
+[astrid] (https://sifrisky.github.io/astrid/)
