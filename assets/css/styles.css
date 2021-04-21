@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap");
 
 /*===== VARIABLES CSS =====*/
 :root{
@@ -9,24 +9,24 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #f39fd0;
-    --white-color: #FAFAFF;
+    --first-color: #ee9ecd;
+    --white-color: #FFFFFF;
     --dark-color: #2A3B47;
-    --text-color: #697477;
+    --text-color: #747769;
 }
 
 /*===== Fuente y tipografia =====*/
 :root{
-    --body-font: 'Montserrat', sans-serif;
-    --big-font-size: 2.25rem;
+    --body-font: 'Oswald', sans-serif;
+    --big-font-size: 6.25rem;
     --h2-font-size: 1.25rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
 }
 @media screen and (min-width: 768px){
     :root{
-        --big-font-size: 5.5rem;
-        --h2-font-size: 1.5rem;
+        --big-font-size: 9.5rem;
+        --h2-font-size: 2rem;
         --normal-font-size: 1rem;
         --small-font-size: .875rem;
     }
@@ -85,20 +85,20 @@ img{
 .section-title{
     position: relative;
     font-size: var(--h2-font-size);
-    color: var(--dark-color);
+    color: var(--text-color);
     margin: var(--mb-4) 0;
     text-align: center;
 }
 .section-title::after{
     position: absolute;
     content: "";
-    width: 20px;
+    width: 32px;
     height: .18rem;
     left: 0;
     right: 0;
     margin: auto;
     top: 2rem;
-    background-color: var(--first-color);
+    background-color: var(--white-color);
 }
 
 /*===== LAYOUT =====*/
@@ -178,7 +178,7 @@ img{
 /*===== HOME =====*/
 .home{
     position: relative;
-    background-color: var(--first-color);
+    background-color: var(--white-color);
     overflow: hidden;
 }
 .home__container{
@@ -188,12 +188,12 @@ img{
 .home__title{
     align-self: flex-end;
     font-size: var(--big-font-size);
-    color: var(--white-color);
+    color: var(--first-color);
     line-height: .8;
 }
-.home__title span{
-    text-shadow: 0 20px 25px rgba(0,0,0,.5);
-}
+/*.home__title span{
+    text-shadow: 0 20px 25px rgba(117, 13, 82, 0.5);
+}*/
 .home__scroll{
     align-self: flex-end;
     padding-bottom: var(--mb-4);
@@ -201,13 +201,13 @@ img{
 .home__scroll-link{
     writing-mode: vertical-lr;
     transform: rotate(-180deg);
-    color: var(--white-color);
+    color: var(--first-color);
 }
 .home__img{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: 275px;
 }
 
 /* ===== ABOUT =====*/
@@ -334,7 +334,7 @@ img{
     width: 100%;
     padding: .8rem;
     outline: none;
-    border: 1.5px solid var(--dark-color);
+    border: 1.5px solid var(--text-color);
     font-size: var(--normal-font-size);
     margin-bottom: var(--mb-4);
     border-radius: .5rem;
@@ -423,7 +423,7 @@ img{
         row-gap: 0;
     }
     .home__img{
-        width: 524px;
+        width: 364px;
         right: 10%;
     }
 
