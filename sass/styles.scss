@@ -222,7 +222,6 @@ img{
     &__img{
         display: flex;
         justify-content: center;
-        
         width: 200px;
         height: 200px;
         background-color: var(--first-color);
@@ -230,8 +229,9 @@ img{
         overflow: hidden;
 
         & img{
+
             height: 200px;
-        }
+
     }
     &__subtitle{
         font-size: var(--h2-font-size);
