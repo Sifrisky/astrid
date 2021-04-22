@@ -229,8 +229,9 @@ img{
         overflow: hidden;
 
         & img{
-            width: 200px;
-        }
+
+            height: 200px;
+
     }
     &__subtitle{
         font-size: var(--h2-font-size);
@@ -460,7 +461,7 @@ img{
             height: 200px;
     
             & img{
-                width: 165px;
+                height: 200px;
             }
         }
     }

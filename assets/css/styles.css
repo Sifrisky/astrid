@@ -219,7 +219,6 @@ img{
 .about__img{
     display: flex;
     justify-content: center;
-   /* padding-top: 1rem;*/
     width: 200px;
     height: 200px;
     background-color: var(--first-color);
@@ -228,7 +227,7 @@ img{
     
 }
 .about__img img{
-   /* width: 200px;*/
+
     height: 200px;
 
 }
@@ -439,9 +438,9 @@ img{
         height: 200px;
         padding-top: 0;
     }
-    /*.about__img img{
-        width: 200px;
-    }*/
+    .about__img img{
+        height: 200px;
+    }
 
     .skills__container{
         grid-template-columns: repeat(2, 1fr);
@@ -475,14 +474,3 @@ img{
     }
 }
 
-/*@media screen and (min-width: 400px){
-
-    .about__img{
-        width: 200px;
-        height: 200px;
-        padding-top: 0;
-    }
-    .about__img img{
-        width: 200px;
-    }
-}*/
