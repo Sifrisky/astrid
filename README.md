@@ -1,7 +1,5 @@
-# Portfolio Astrid
+# Primer Portfolio Astrid. see deployment [astrid](https://sifrisky.github.io/astrid/)
 
-#Preview:
+# Preview:
 ![](screenshot.png)
-see deployment 
-<!--[astrid](https://sifrisky.github.io/astrid/)
--->
+
